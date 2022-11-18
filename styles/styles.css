@@ -1,0 +1,43 @@
+
+.navbar a {
+    color: #F0EBCE;
+}
+
+.navbar-brand {
+    font-size: x-large;
+    font-weight: bold;   
+}
+
+
+.navbar a:hover {
+    color:#AA8B56;
+    transition: color 0.2s ease-in-out;
+}
+
+
+body {
+    background-color: #F0EBCE;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+.profile-pic-div{
+    padding-left: 20%;
+    margin-top: 5%;
+}
+
+.intro-text-div{
+    /* padding-left: 20%; */
+    margin-top: 5%;
+}
+
+.about-me {
+    margin-bottom: 5%;
+}
+
+
+.project-list {
+    margin: 0 10% ;
+}
