@@ -67,13 +67,14 @@ hr {
 
 footer {
     background-color: white;
+    height: 150px;
+    text-align: center;
 }
 
 footer p {
     margin: 0;
-    height: 150px;
-    line-height: 100px;
-    text-align: center;
+    line-height: 150px;
+    
 }
 
 
