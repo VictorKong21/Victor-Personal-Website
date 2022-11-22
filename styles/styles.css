@@ -22,46 +22,36 @@ body {
 
 .profile-pic {
     border-radius: 50%;
+    width: 250px;
 }
 
 .profile-pic-div{
     text-align: center;
 }
 
-.intro-text-div{
-    /* padding-left: 20%; */
-    margin-top: 5%;
-}
-
 .about-me {
     padding: 5% 10% 0;
+    margin: 0;
 }
 
 .latest-projects{
-    margin: 5% 13% 0 19%;
-}
-
-
-.project-list {
-    margin: auto;
+    padding: 0 10%;
     margin-bottom: 80px;
 }
 
+
+.latest-project-cards{
+    margin: 0;
+}
+
+
 .card {
-    margin: auto;
-    margin-bottom: 20px;
+    margin: 20px auto;
     color:#395144;
     background-color: #eeeeeeff;
 }
 
-.card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
-}
-
 hr {
-    /* border-top: 10px dotted; */
     margin: 50px 35%;
 }
 
@@ -77,6 +67,12 @@ footer p {
     
 }
 
+
+
+.latest-projects-text{
+    padding: 0;
+    margin: 0;
+}
 
 
 
