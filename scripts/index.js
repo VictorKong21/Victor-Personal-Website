@@ -1,5 +1,5 @@
 // alert("Hi");
 
-$('.nav-link').click(function(){
-    $('.navbar-toggler').click();
-  });
+$('.navbar-nav a').on('click', function() {
+    $('.navbar-collapse').collapse('hide');
+});
