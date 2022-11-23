@@ -37,6 +37,9 @@ body {
     padding: 0 10%;
 }
 
+.navbar .navbar-collapse {
+    text-align: center;
+  }
 
 .about-me {
     padding: 120px 10% 0;

@@ -1,6 +1,5 @@
 <!-- TODO:
 1) Fix favicon
-2) Make Nav bar responsive
 -->
 
 <!DOCTYPE html>
@@ -16,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top py-2" style="background-color: #395144">
+    <!-- <nav class="navbar fixed-top py-2" style="background-color: #395144">
         <div class="navbar-item-spacing container-fluid">
             <a class="navbar-brand" href="#">Victor Kong</a>
             <ul class="nav">
@@ -28,7 +27,28 @@
                 </li>
             </ul>
         </div>
+    </nav> -->
+
+
+    <nav class="navbar fixed-top py-2 navbar-expand-lg" style="background-color: #395144">
+        <div class="navbar-item-spacing container-fluid">
+            <a class="navbar-brand" href="#">Victor Kong</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link" href="#about-me-section">About</a>
+                  <a class="nav-link" href="#latest-projects-section">Projects</a>
+                </div>
+            </div>
+        </div>
     </nav>
+
+
+
+
+
 
     <section id="about-me-section">
         <div class="about-me row">
