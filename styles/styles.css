@@ -67,6 +67,10 @@ footer p {
     
 }
 
+/* To fix iOS device display issue */
+.row:before, .row:after{
+    display: none;
+  }
 
 
 .latest-projects-text{
