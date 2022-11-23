@@ -100,7 +100,10 @@ footer p {
     margin: 0;
 }
 
-
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
 
 
 .btn-primary {
