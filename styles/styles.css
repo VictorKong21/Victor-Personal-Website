@@ -1,3 +1,24 @@
+/* General  */
+
+section {
+    padding-top: 110px;
+    margin-top: -110px;
+}
+
+body {
+    background-color: #F0EBCE;
+}
+
+hr {
+    margin: 50px 35%;
+}
+
+.row:before, .row:after{
+    display: none;
+  }
+
+
+/* Nav bar */
 
 .navbar a {
     color: #F0EBCE;
@@ -8,27 +29,40 @@
     font-weight: bold;   
 }
 
-section {
-    padding-top: 110px;
-    margin-top: -110px;
-}
-
-
-.about-me-text {
-    padding: 40px 0 0 0;
-}
-
-
 .navbar a:hover {
     color:#AA8B56;
     transition: color 0.2s ease-in-out;
 }
 
-.navbar a:focus{color:#F0EBCE;}
-
-body {
-    background-color: #F0EBCE;
+.navbar a:focus{
+    color:#F0EBCE;
 }
+
+.navbar-item-spacing{
+    padding: 0 10%;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* About me  */
+
+.about-me {
+    padding: 120px 10% 0;
+    margin: 0;
+}
+
+.about-me-text {
+    padding: 40px 0 0 0;
+}
+
 
 .profile-pic {
     border-radius: 50%;
@@ -39,29 +73,26 @@ body {
     text-align: center;
 }
 
-.navbar-item-spacing{
-    padding: 0 10%;
-}
 
-.navbar .navbar-collapse {
-    text-align: center;
-  }
-
-.about-me {
-    padding: 120px 10% 0;
-    margin: 0;
-}
+/* Projects */
 
 .latest-projects{
     padding: 0 10%;
     margin-bottom: 80px;
 }
 
-
 .latest-project-cards{
     margin: 0;
 }
 
+
+.latest-projects-text{ /* To fix iOS device display issue */
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Project cards */
 
 .card {
     margin: 20px auto;
@@ -72,39 +103,6 @@ body {
 .card-container {
     padding-left: 0;
 }
-
-hr {
-    margin: 50px 35%;
-}
-
-footer {
-    background-color: white;
-    height: 150px;
-    text-align: center;
-}
-
-footer p {
-    margin: 0;
-    line-height: 150px;
-    
-}
-
-/* To fix iOS device display issue */
-.row:before, .row:after{
-    display: none;
-  }
-
-
-.latest-projects-text{
-    padding: 0;
-    margin: 0;
-}
-
-.navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
-}
-
 
 .btn-primary {
     color: white;
@@ -126,3 +124,22 @@ footer p {
     color: white;
     background-color: #aa8b56ff !important;
   }
+
+
+/* Footer */
+
+footer {
+    background-color: white;
+    height: 150px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    line-height: 150px;
+    
+}
+
+
+
+
