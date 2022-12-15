@@ -1,5 +1,11 @@
 /* General  */
 
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
 section {
   padding-top: 110px;
   margin-top: -110px;
@@ -7,6 +13,10 @@ section {
 
 body {
   background-color: #f0ebce;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 hr {
@@ -53,11 +63,13 @@ hr {
 
 /* About me  */
 
+.project-page,
 .about-me {
   padding: 120px 10% 0;
   margin: 0;
 }
 
+.project-page-text,
 .about-me-text {
   padding: 40px 0 0 0;
 }
@@ -132,4 +144,11 @@ footer {
 footer p {
   margin: 0;
   line-height: 150px;
+}
+
+/* Project pages */
+
+.project-page-img {
+  width: 200px;
+  height: 200px;
 }
